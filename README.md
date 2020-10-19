@@ -1,6 +1,10 @@
 # selenium_course__pytest_language
 - pytest --language=es test_items.py
 - pytest --language=fr test_items.py
+- pytest --language=en test_items.py
+- pytest --language=ru test_items.py
+- pytest --browser_name=chrome --language=es test_items.py
+- pytest --browser_name=firefox --language=es test_items.py
 
 <span><h2>Задание: запуск автотестов для&nbsp;разных языков&nbsp;интерфейса</h2>
 
