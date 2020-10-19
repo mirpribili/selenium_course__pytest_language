@@ -1,4 +1,6 @@
 # selenium_course__pytest_language
+- pytest --language=es test_items.py
+- pytest --language=fr test_items.py
 
 <span><h2>Задание: запуск автотестов для&nbsp;разных языков&nbsp;интерфейса</h2>
 
@@ -9,9 +11,9 @@
 	<li>Добавьте в&nbsp;файл&nbsp;conftest.py обработчик, который считывает из командной строки параметр language.</li>
 	<li>Реализуйте в файле conftest.py логику&nbsp;запуска браузера с указанным&nbsp;языком пользователя. Браузер должен объявляться в фикстуре browser&nbsp;и передаваться в тест как параметр.</li>
 	<li>В файл test_items.py напишите тест, который проверяет, что&nbsp;страница&nbsp;товара на сайте содержит&nbsp;кнопку&nbsp;добавления в корзину. Например, можно проверять&nbsp;товар, доступный по&nbsp;<a href="http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/" rel="noopener noreferrer nofollow" target="_blank">http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/</a>.</li>
-	<li>Тест должен запускаться&nbsp;с параметром language следующей командой:
-	<pre><code class="language-bash hljs">pytest --language=es test_items.py</code></pre>
-	и проходить успешно. Достаточно, чтобы код работал только для браузера Сhrome.</li>
+	<li>Тест должен запускаться&nbsp;с параметром language следующей командой:</li>
+	**pytest --language=es test_items.py**
+	<li>и проходить успешно. Достаточно, чтобы код работал только для браузера Сhrome.</li>
 	<li>Отправить ссылку на данный репозиторий в качестве ответа на данное задание.</li>
 	<li>Отправить решение на рецензирование другим учащимся. Не забудьте, что решение на рецензирование можно отправить только один раз.</li>
 	<li>Проверьте решения&nbsp;минимум трех других учащихся, чтобы получить баллы за задание.</li>
